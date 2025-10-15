@@ -19,8 +19,7 @@ WaitVBlank:
 
 	; Turn the LCD off
 	ld a, 0
-	ld [rLCDC], a
-
+	ld [rLCDC], a89
 	; Copy the tile data
 	ld de, Tiles
 	ld hl, $9000
