@@ -1,1 +1,18 @@
-./Emulicious
+# direnv 缓存文件
+.direnv/
+
+# Emulicious 模拟器文件
+Emulicious/
+
+# 编译产物
+*.o
+*.gb
+*.sym
+*.map
+
+# macOS 系统文件
+.DS_Store
+
+# Nix 相关
+result
+result-*
