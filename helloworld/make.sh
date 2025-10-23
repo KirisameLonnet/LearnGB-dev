@@ -56,4 +56,3 @@ jq --arg rom_path "$ROM_RELATIVE_PATH" \
 mv "$TEMP_JSON_PATH" "$LAUNCH_JSON_PATH"
 
 echo "✅ Build and configuration update successful. You can now use 'Launch from Script'."
-```
